@@ -41,7 +41,7 @@ void loop()
   lcd.print("Distance");
   Serial.println("Hello");
 
-  /*if(distance>0 & distance<=30)
+  if(distance>0 & distance<=30)
   {
     if(digitalRead(8) == LOW)
     {
@@ -74,5 +74,5 @@ void loop()
      lcd.setCursor(0,0);
      delay(100);
    }
- }*/
+ }
 }
